@@ -89,7 +89,7 @@ body {
 /*navbar */
 
 .navbar {
-  background-color: #fff;
+  background-color: #fefdf5;
   padding: 1.5rem 0;
   @media (max-width: 991px) {
     padding: 0.5rem 0;
@@ -257,10 +257,11 @@ body {
   .content-lg {
     font-size: 64px;
     line-height: 74px;
-    margin: 64px 0 184px 0;
+    margin: 64px 0 228px 0;
     @media (max-width: 991px) {
       font-size: 36px;
       line-height: 46px;
+      margin: 64px 0 124px 0;
     }
     @media (max-width: 767px) {
       margin-top: 16px;
@@ -297,6 +298,10 @@ body {
     }
     .chat-content {
       font-size: 24px;
+      @media(min-width:992px){
+        font-size: 28px;
+        width: 75%;
+      }
       @media (max-width: 991px) {
         font-size: 18px;
         margin-bottom: 16px;
@@ -324,7 +329,7 @@ body {
 
 footer {
   background-color: #3c4543;
-  padding: 180px 0 50px;
+  padding: 228px 0 50px;
   color: #d5d10e;
   @media (max-width: 991px) {
     padding-top: 124px;
