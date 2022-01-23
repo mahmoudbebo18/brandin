@@ -69,7 +69,10 @@ body {
     font-size: 18px;
     transition: 0.3s;
     padding: 0.5rem 1rem;
-    color: #3d4543 !important; }
+    color: #3d4543 !important;
+    transition: .3s; }
+    .navbar .navbar-nav .nav-link:hover {
+      color: #d5d10e !important; }
   .navbar .navbar-nav .nav-item.active .nav-link {
     color: #d5d10e !important; }
   .navbar .navbar-toggler {
