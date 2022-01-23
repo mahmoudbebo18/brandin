@@ -59,20 +59,19 @@ body {
     .navbar {
       padding: 0.5rem 0; }
       .navbar .container {
-        align-items: center !important; } }
+        align-items: center !important;
+        padding: 0 15px; } }
   @media (min-width: 991px) {
     .navbar .container {
       flex-direction: row-reverse; } }
-  @media (max-width: 575px) {
-    .navbar {
-      padding-right: 15px;
-      padding-left: 15px; } }
   .navbar .navbar-nav .nav-link {
     font-family: "MyriadPro-Semibold";
     font-size: 18px;
     transition: 0.3s;
     padding: 0.5rem 1rem;
-    color: #3d4543; }
+    color: #3d4543 !important; }
+  .navbar .navbar-nav .nav-item.active .nav-link {
+    color: #d5d10e !important; }
   .navbar .navbar-toggler {
     outline: none !important; }
 

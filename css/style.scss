@@ -95,6 +95,7 @@ body {
     padding: 0.5rem 0;
     .container {
       align-items: center !important;
+      padding: 0 15px;
     }
   }
   .container{
@@ -102,17 +103,18 @@ body {
       flex-direction: row-reverse;
     }
   }
-  @media (max-width: 575px) {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
   .navbar-nav {
     .nav-link {
       font-family: $MyriadPro-Semibold;
       font-size: 18px;
       transition: 0.3s;
       padding: 0.5rem 1rem;
-      color: $textcolor;
+      color: $textcolor !important;
+    }
+    .nav-item.active{
+      .nav-link{
+        color:#d5d10e !important;
+      }
     }
   }
   .navbar-toggler{
