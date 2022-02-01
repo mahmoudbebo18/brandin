@@ -14,6 +14,12 @@
   font-family: "MyriadPro-Semibold";
   src: url(../fonts/MyriadPro-Semibold.otf); }
 @font-face {
+  font-family: "MyriadPro-light";
+  src: url(../fonts/MyriadPro-Light.otf); }
+@font-face {
+  font-family: "MyriadPro-lightIt";
+  src: url(../fonts/MyriadPro-LightIt.otf); }
+@font-face {
   font-family: "29LTZaridSansAL-Regular";
   src: url(../fonts/29LTZaridSansAL-Regular.otf); }
 /* fonts vars */
@@ -46,7 +52,9 @@ body {
       .awraq h3 {
         font-size: 16px; } }
   .awraq p {
-    font-family: "MyriadPro-Regular"; }
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    line-height: 26px; }
     @media (max-width: 767px) {
       .awraq p {
         font-size: 14px; } }
@@ -70,7 +78,7 @@ body {
     transition: 0.3s;
     padding: 0.5rem 1rem;
     color: #3d4543 !important;
-    transition: .3s; }
+    transition: 0.3s; }
     .navbar .navbar-nav .nav-link:hover {
       color: #d5d10e !important; }
   .navbar .navbar-nav .nav-item.active .nav-link {
@@ -312,5 +320,263 @@ footer {
   @media (max-width: 575px) {
     footer .justify-content-end {
       justify-content: flex-start !important; } }
+
+/*about us page */
+.about_header strong {
+  font-size: 20px; }
+.about_header h1 {
+  margin-bottom: 36px; }
+
+.what-we-do h2 {
+  font-size: 64px;
+  font-family: "MyriadPro-light";
+  margin-bottom: 32px; }
+  @media (max-width: 991px) {
+    .what-we-do h2 {
+      font-size: 36px;
+      width: 100%; } }
+  @media (max-width: 575px) {
+    .what-we-do h2 {
+      font-size: 28px; } }
+  @media (max-width: 425px) {
+    .what-we-do h2 {
+      font-size: 24px;
+      margin-bottom: 36px; } }
+  @media (max-width: 375px) {
+    .what-we-do h2 {
+      font-size: 20px; } }
+.what-we-do p {
+  font-size: 32px;
+  margin-bottom: 32px; }
+  @media (max-width: 991px) {
+    .what-we-do p {
+      font-size: 24px;
+      width: 100%; } }
+  @media (max-width: 575px) {
+    .what-we-do p {
+      font-size: 20px; } }
+  @media (max-width: 425px) {
+    .what-we-do p {
+      font-size: 18px; } }
+  @media (max-width: 375px) {
+    .what-we-do p {
+      font-size: 16px; } }
+
+/*founder_quote*/
+.founder_quote {
+  padding: 64px 0; }
+  @media (max-width: 991px) {
+    .founder_quote .awraq img {
+      margin-bottom: 24px !important; } }
+  .founder_quote .awraq p {
+    color: #fff;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 32px; }
+    @media (max-width: 991px) {
+      .founder_quote .awraq p {
+        font-size: 24px; } }
+    @media (max-width: 767px) {
+      .founder_quote .awraq p {
+        font-size: 18px; } }
+    @media (max-width: 575px) {
+      .founder_quote .awraq p {
+        font-size: 16px; } }
+    @media (max-width: 425px) {
+      .founder_quote .awraq p {
+        font-size: 14px; } }
+    .founder_quote .awraq p .bold {
+      font-family: "MyriadPro-Bold"; }
+    .founder_quote .awraq p .bold_italic {
+      font-family: "MyriadPro-BoldIt"; }
+  .founder_quote .awraq .quote_sign {
+    color: #fff; }
+    .founder_quote .awraq .quote_sign h4 {
+      font-family: "MyriadPro-BoldIt";
+      font-size: 28px; }
+      @media (max-width: 991px) {
+        .founder_quote .awraq .quote_sign h4 {
+          font-size: 24px; } }
+      @media (max-width: 767px) {
+        .founder_quote .awraq .quote_sign h4 {
+          font-size: 18px; } }
+      @media (max-width: 575px) {
+        .founder_quote .awraq .quote_sign h4 {
+          font-size: 16px; } }
+      @media (max-width: 425px) {
+        .founder_quote .awraq .quote_sign h4 {
+          font-size: 14px; } }
+    .founder_quote .awraq .quote_sign span {
+      font-size: 28px;
+      font-family: "MyriadPro-Regular"; }
+      @media (max-width: 991px) {
+        .founder_quote .awraq .quote_sign span {
+          font-size: 24px; } }
+      @media (max-width: 767px) {
+        .founder_quote .awraq .quote_sign span {
+          font-size: 18px; } }
+      @media (max-width: 575px) {
+        .founder_quote .awraq .quote_sign span {
+          font-size: 16px; } }
+      @media (max-width: 425px) {
+        .founder_quote .awraq .quote_sign span {
+          font-size: 14px; } }
+
+/*core_value*/
+.core_value {
+  padding: 50px 0; }
+  @media (max-width: 991px) {
+    .core_value {
+      padding-bottom: 0; } }
+  .core_value h2 {
+    font-size: 64px;
+    font-family: "MyriadPro-light";
+    margin-bottom: 32px; }
+    @media (max-width: 991px) {
+      .core_value h2 {
+        font-size: 36px; } }
+    @media (max-width: 575px) {
+      .core_value h2 {
+        font-size: 28px; } }
+    @media (max-width: 425px) {
+      .core_value h2 {
+        font-size: 24px; } }
+    @media (max-width: 375px) {
+      .core_value h2 {
+        font-size: 20px; } }
+  .core_value h4 {
+    color: #d5d10e;
+    font-family: "MyriadPro-Bold";
+    margin-bottom: 20px;
+    font-size: 36px; }
+    @media (max-width: 991px) {
+      .core_value h4 {
+        font-size: 28px; } }
+    @media (max-width: 575px) {
+      .core_value h4 {
+        font-size: 24px; } }
+    @media (max-width: 425px) {
+      .core_value h4 {
+        font-size: 20px; } }
+    @media (max-width: 375px) {
+      .core_value h4 {
+        font-size: 18px; } }
+  .core_value p {
+    font-size: 28px;
+    margin-bottom: 36px;
+    line-height: 38px; }
+    @media (max-width: 767px) {
+      .core_value p {
+        font-size: 20px; } }
+    @media (max-width: 575px) {
+      .core_value p {
+        font-size: 16px; } }
+
+/*our_team*/
+.our_team {
+  padding-top: 0; }
+  .our_team h2 {
+    font-family: "MyriadPro-light"; }
+  .our_team .team_desc {
+    font-size: 32px; }
+    @media (max-width: 767px) {
+      .our_team .team_desc {
+        font-size: 20px; } }
+    @media (max-width: 575px) {
+      .our_team .team_desc {
+        font-size: 16px; } }
+    .our_team .team_desc span {
+      margin-top: 8px;
+      margin-bottom: 24px; }
+  .our_team .awraq img {
+    height: 270px;
+    object-fit: cover; }
+    @media (max-width: 991px) {
+      .our_team .awraq img {
+        height: 200px; } }
+    @media (max-width: 575px) {
+      .our_team .awraq img {
+        height: auto; } }
+
+/*contact us */
+.lets_talk {
+  padding: 64px 0; }
+  .lets_talk h2 {
+    font-family: "MyriadPro-Bold";
+    font-size: 50px;
+    margin-bottom: 44px; }
+    @media (max-width: 767px) {
+      .lets_talk h2 {
+        font-size: 36px; } }
+    @media (max-width: 245px) {
+      .lets_talk h2 {
+        font-size: 24px; } }
+  @media (max-width: 991px) {
+    .lets_talk .contact__form {
+      margin-bottom: 24px; } }
+  .lets_talk .contact__form label,
+  .lets_talk .contact__form input {
+    display: block;
+    width: 100%; }
+  .lets_talk .contact__form label {
+    font-size: 36px; }
+    @media (max-width: 991px) {
+      .lets_talk .contact__form label {
+        font-size: 28px; } }
+    @media (max-width: 767px) {
+      .lets_talk .contact__form label {
+        font-size: 18px; } }
+  .lets_talk .contact__form input {
+    border: none;
+    border-bottom: 1px solid #e0d61c;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 20px;
+    margin-bottom: 36px; }
+  .lets_talk .contact__form .budget_input {
+    background-color: #e0d61c;
+    padding: 8px 8px 4px; }
+    .lets_talk .contact__form .budget_input::placeholder {
+      font-size: 24px;
+      font-family: "MyriadPro-Bold";
+      color: #3d4543; }
+  .lets_talk .contact__form .submit__button {
+    font-family: "MyriadPro-Bold";
+    background-color: transparent;
+    outline: none;
+    font-size: 36px;
+    border: none;
+    color: #3d4543;
+    display: block;
+    margin-left: auto; }
+
+.contact__info h4 {
+  font-size: 20px;
+  font-family: "MyriadPro-Bold";
+  margin: 0; }
+.contact__info a {
+  text-decoration: none;
+  color: #3d4543; }
+.contact__info p {
+  margin-top: 24px;
+  margin-bottom: 0; }
+  @media (max-width: 991px) {
+    .contact__info p {
+      margin-top: 12px; } }
+
+.follow__us h4 {
+  font-family: "MyriadPro-Regular"; }
+.follow__us a {
+  display: block;
+  text-decoration: none;
+  color: #3d4543;
+  padding: 8px 0; }
+
+@media (max-width: 991px) {
+  .inquries, .follow__us, .address {
+    margin-bottom: 32px; } }
+
+.contact-footer {
+  padding: 50px 0; }
 
 /*# sourceMappingURL=style.css.map */

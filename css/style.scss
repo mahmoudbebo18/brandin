@@ -24,6 +24,16 @@
 }
 
 @font-face {
+  font-family: "MyriadPro-light";
+  src: url(../fonts/MyriadPro-Light.otf);
+}
+
+@font-face {
+  font-family: "MyriadPro-lightIt";
+  src: url(../fonts/MyriadPro-LightIt.otf);
+}
+
+@font-face {
   font-family: "29LTZaridSansAL-Regular";
   src: url(../fonts/29LTZaridSansAL-Regular.otf);
 }
@@ -39,6 +49,10 @@ $MyriadPro-It: "MyriadPro-It";
 $MyriadPro-Regular: "MyriadPro-Regular";
 
 $MyriadPro-Semibold: "MyriadPro-Semibold";
+
+$MyriadPro-light: "MyriadPro-light";
+
+$MyriadPro-lightIt: "MyriadPro-lightIt";
 
 $LTZaridSansAL-Regular: "29LTZaridSansAL-Regular";
 
@@ -80,6 +94,8 @@ body {
   }
   p {
     font-family: $MyriadPro-Regular;
+    font-size: 18px;
+    line-height: 26px;
     @media (max-width: 767px) {
       font-size: 14px;
     }
@@ -98,8 +114,8 @@ body {
       padding: 0 15px;
     }
   }
-  .container{
-    @media(min-width:991px){
+  .container {
+    @media (min-width: 991px) {
       flex-direction: row-reverse;
     }
   }
@@ -110,18 +126,18 @@ body {
       transition: 0.3s;
       padding: 0.5rem 1rem;
       color: $textcolor !important;
-      transition: .3s;
-      &:hover{
+      transition: 0.3s;
+      &:hover {
         color: #d5d10e !important;
       }
     }
-    .nav-item.active{
-      .nav-link{
-        color:#d5d10e !important;
+    .nav-item.active {
+      .nav-link {
+        color: #d5d10e !important;
       }
     }
   }
-  .navbar-toggler{
+  .navbar-toggler {
     outline: none !important;
   }
 }
@@ -304,7 +320,7 @@ body {
     }
     .chat-content {
       font-size: 24px;
-      @media(min-width:992px){
+      @media (min-width: 992px) {
         font-size: 28px;
         width: 75%;
       }
@@ -409,4 +425,321 @@ footer {
       justify-content: flex-start !important;
     }
   }
+}
+
+/*about us page */
+
+.about_header {
+  strong {
+    font-size: 20px;
+  }
+  h1 {
+    margin-bottom: 36px;
+  }
+}
+.what-we-do {
+  h2 {
+    font-size: 64px;
+    font-family: $MyriadPro-light;
+    margin-bottom: 32px;
+    @media (max-width: 991px) {
+      font-size: 36px;
+      width: 100%;
+    }
+    @media (max-width: 575px) {
+      font-size: 28px;
+    }
+    @media (max-width: 425px) {
+      font-size: 24px;
+      margin-bottom: 36px;
+    }
+    @media (max-width: 375px) {
+      font-size: 20px;
+    }
+  }
+  p {
+    font-size: 32px;
+    margin-bottom: 32px;
+    @media (max-width: 991px) {
+      font-size: 24px;
+      width: 100%;
+    }
+    @media (max-width: 575px) {
+      font-size: 20px;
+    }
+    @media (max-width: 425px) {
+      font-size: 18px;
+    }
+    @media (max-width: 375px) {
+      font-size: 16px;
+    }
+  }
+}
+
+/*founder_quote*/
+.founder_quote {
+  padding: 64px 0;
+  .awraq {
+    img{
+      @media(max-width:991px){
+        margin-bottom: 24px !important;
+      }
+    }
+    p {
+      color: #fff;
+      font-size: 28px;
+      line-height: 38px;
+      margin-bottom: 32px;
+      @media(max-width:991px){
+        font-size: 24px;
+      }
+      @media(max-width:767px){
+        font-size: 18px;
+      }
+      @media(max-width:575px){
+        font-size: 16px;
+      }
+      @media(max-width:425px){
+        font-size: 14px;
+      }
+
+      .bold {
+        font-family: $MyriadPro-Bold;
+      }
+      .bold_italic {
+        font-family: $MyriadPro-BoldIt;
+      }
+    }
+    .quote_sign {
+      color: #fff;
+      h4 {
+        font-family: $MyriadPro-BoldIt;
+        font-size: 28px;
+        @media(max-width:991px){
+          font-size: 24px;
+        }
+        @media(max-width:767px){
+          font-size: 18px;
+        }
+        @media(max-width:575px){
+          font-size: 16px;
+        }
+        @media(max-width:425px){
+          font-size: 14px;
+        }
+  
+      }
+      span {
+        font-size: 28px;
+        font-family: $MyriadPro-Regular;
+        @media(max-width:991px){
+          font-size: 24px;
+        }
+        @media(max-width:767px){
+          font-size: 18px;
+        }
+        @media(max-width:575px){
+          font-size: 16px;
+        }
+        @media(max-width:425px){
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+/*core_value*/
+
+.core_value {
+  padding: 50px 0;
+  @media(max-width:991px){
+    padding-bottom: 0;
+  }
+  h2 {
+    font-size: 64px;
+    font-family: $MyriadPro-light;
+    margin-bottom: 32px;
+    @media (max-width: 991px) {
+      font-size: 36px;
+    }
+    @media (max-width: 575px) {
+      font-size: 28px;
+    }
+    @media (max-width: 425px) {
+      font-size: 24px;
+    }
+    @media (max-width: 375px) {
+      font-size: 20px;
+    }
+  }
+  h4 {
+    color: #d5d10e;
+    font-family: $MyriadPro-Bold;
+    margin-bottom: 20px;
+    font-size: 36px;
+    @media (max-width: 991px) {
+      font-size: 28px;
+    }
+    @media (max-width: 575px) {
+      font-size: 24px;
+    }
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
+    @media (max-width: 375px) {
+      font-size: 18px;
+    }
+  }
+  p {
+    font-size: 28px;
+    margin-bottom: 36px;
+    line-height: 38px;
+    @media(max-width:767px){
+      font-size: 20px;
+
+    }
+    @media(max-width:575px){
+      font-size: 16px;
+      
+    }
+  }
+}
+
+/*our_team*/
+
+.our_team {
+  padding-top: 0;
+  h2 {
+    font-family: $MyriadPro-light;
+  }
+  .team_desc {
+    font-size: 32px;
+    @media(max-width:767px){
+      font-size: 20px;
+    }
+    @media(max-width:575px){
+      font-size: 16px;
+    }
+    span {
+      margin-top: 8px;
+      margin-bottom: 24px;
+    }
+  }
+  .awraq {
+    img {
+      height: 270px;
+      object-fit: cover;
+      @media(max-width:991px){
+        height: 200px;
+      }
+      @media(max-width:575px){
+        height: auto;
+      }
+    }
+  }
+}
+
+/*contact us */
+
+.lets_talk {
+  padding: 64px 0;
+  h2 {
+    font-family: $MyriadPro-Bold;
+    font-size: 50px;
+    margin-bottom: 44px;
+    @media (max-width: 767px) {
+      font-size: 36px;
+    }
+    @media (max-width: 245px) {
+      font-size: 24px;
+    }
+  }
+  .contact__form {
+    @media(max-width:991px){
+      margin-bottom: 24px;
+    }
+    label,
+    input {
+      display: block;
+      width: 100%;
+    }
+    label {
+      font-size: 36px;
+      @media(max-width:991px){
+        font-size: 28px;
+      }
+      @media(max-width:767px){
+        font-size: 18px;
+      }
+    }
+    input {
+      border: none;
+      border-bottom: 1px solid #e0d61c;
+      outline: none !important;
+      box-shadow: none !important;
+      font-size: 20px;
+      margin-bottom: 36px;
+    }
+    .budget_input {
+      background-color: #e0d61c;
+      padding: 8px 8px 4px;
+      &::placeholder {
+        font-size: 24px;
+        font-family: $MyriadPro-Bold;
+        color: #3d4543;
+      }
+    }
+    .submit__button{
+      font-family: $MyriadPro-Bold;
+      background-color: transparent;
+      outline: none;
+      font-size: 36px;
+      border: none;
+      color: #3d4543;
+      display: block;
+      margin-left: auto;
+
+
+    }
+  }
+}
+
+.contact__info{
+  h4{
+    font-size: 20px;
+    font-family: $MyriadPro-Bold;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    color: #3d4543;
+  }
+  p{
+    margin-top: 24px;
+    margin-bottom: 0;
+    @media(max-width:991px){
+      margin-top: 12px;
+    }
+  }
+}
+.follow__us{
+  h4{
+    font-family: $MyriadPro-Regular;
+  }
+  a{
+    display: block;
+    text-decoration: none;
+    color: #3d4543;
+    padding: 8px 0 ;
+  }
+}
+
+.inquries, .follow__us,.address{
+  @media(max-width:991px){
+    margin-bottom: 32px;
+  }
+}
+.contact-footer {
+  padding: 50px 0;
 }
