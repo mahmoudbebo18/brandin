@@ -22,6 +22,9 @@
 @font-face {
   font-family: "29LTZaridSansAL-Regular";
   src: url(../fonts/29LTZaridSansAL-Regular.otf); }
+@font-face {
+  font-family: "29LTZaridSansAL-Bold";
+  src: url(../fonts/29LTZaridSansAL-Bold.otf); }
 /* fonts vars */
 /*colors vars */
 body {
@@ -59,6 +62,12 @@ body {
       .awraq p {
         font-size: 14px; } }
 
+.bold_arabic {
+  font-family: "29LTZaridSansAL-Bold" !important; }
+
+.regular_arabic {
+  font-family: "29LTZaridSansAL-Regular" !important; }
+
 /*navbar */
 .navbar {
   background-color: #fefdf5;
@@ -93,21 +102,26 @@ body {
     font-size: 64px;
     width: 90%;
     font-family: "MyriadPro-Regular";
-    margin-bottom: 64px; }
+    margin-bottom: 64px;
+    line-height: 74px; }
     @media (max-width: 991px) {
       .header h1 {
         font-size: 36px;
+        line-height: 46px;
         width: 100%; } }
     @media (max-width: 575px) {
       .header h1 {
-        font-size: 28px; } }
+        font-size: 28px;
+        line-height: 38px; } }
     @media (max-width: 425px) {
       .header h1 {
         font-size: 24px;
+        line-height: 34px;
         margin-bottom: 36px; } }
     @media (max-width: 375px) {
       .header h1 {
-        font-size: 20px; } }
+        font-size: 20px;
+        line-height: 30px; } }
     .header h1 span {
       font-family: "MyriadPro-Bold"; }
   @media (min-width: 350px) and (max-width: 575px) {
@@ -573,10 +587,139 @@ footer {
   padding: 8px 0; }
 
 @media (max-width: 991px) {
-  .inquries, .follow__us, .address {
+  .inquries,
+  .follow__us,
+  .address {
     margin-bottom: 32px; } }
 
 .contact-footer {
   padding: 50px 0; }
+
+/*blog_header*/
+.blog_header .awraq img {
+  min-height: 400px; }
+  @media (max-width: 991px) {
+    .blog_header .awraq img {
+      min-height: 250px; } }
+.blog_header .blog_desc span {
+  font-family: "29LTZaridSansAL-Bold"; }
+.blog_header .blog_desc p {
+  font-family: "29LTZaridSansAL-Regular"; }
+
+.quote_paragraph {
+  direction: rtl;
+  font-family: "29LTZaridSansAL-Regular";
+  font-size: 70px;
+  line-height: 80px;
+  margin-top: 36px;
+  text-align: justify; }
+  @media (max-width: 991px) {
+    .quote_paragraph {
+      font-size: 36px;
+      line-height: 46px; } }
+  @media (max-width: 767px) {
+    .quote_paragraph {
+      font-size: 28px;
+      line-height: 38px; } }
+  @media (max-width: 575px) {
+    .quote_paragraph {
+      font-size: 20px;
+      line-height: 30px; } }
+  @media (max-width: 425px) {
+    .quote_paragraph {
+      font-size: 18px;
+      line-height: 28px; } }
+  .quote_paragraph span {
+    font-family: "29LTZaridSansAL-Bold"; }
+
+.writer {
+  font-family: "29LTZaridSansAL-Bold";
+  font-size: 22px; }
+  @media (max-width: 991px) {
+    .writer {
+      font-size: 16px; } }
+
+.blog_links_row {
+  margin: 64px 0 170px 0 !important; }
+  @media (max-width: 991px) {
+    .blog_links_row {
+      margin: 64px 0 70px 0 !important; } }
+  @media (max-width: 767px) {
+    .blog_links_row {
+      margin-top: 16px !important;
+      margin-bottom: 124px !important; } }
+  .blog_links_row .awraq img {
+    min-height: auto; }
+  .blog_links_row .links {
+    margin-bottom: 16px; }
+    .blog_links_row .links h4 {
+      font-family: "29LTZaridSansAL-Bold";
+      margin-bottom: 8px; }
+    .blog_links_row .links a {
+      font-family: "29LTZaridSansAL-Regular";
+      color: #3d4543;
+      text-decoration: none; }
+    .blog_links_row .links h6 {
+      font-family: "29LTZaridSansAL-Bold";
+      font-size: 20px;
+      margin-bottom: 12px; }
+
+form.newsletter input {
+  background-color: #f1edad;
+  border: none;
+  width: 100%;
+  padding: 8px; }
+
+/*bg_2*/
+.bg_2 {
+  text-align: right;
+  direction: rtl; }
+  .bg_2 .awraq span {
+    font-size: 24px; }
+    @media (max-width: 991px) {
+      .bg_2 .awraq span {
+        font-size: 16px; } }
+  .bg_2 .header-content {
+    margin: 34px 0 170px 0 !important; }
+    @media (max-width: 991px) {
+      .bg_2 .header-content {
+        margin: 34px 0 24px 0 !important; } }
+    @media (max-width: 767px) {
+      .bg_2 .header-content {
+        margin-top: 16px !important;
+        margin-bottom: 0px !important; } }
+  .bg_2 h1 {
+    margin-bottom: 24px; }
+  .bg_2 .header_p {
+    font-family: "MyriadPro-light"; }
+  .bg_2 .name_span {
+    font-family: "MyriadPro-Bold"; }
+  .bg_2 .blog_paragraphs {
+    margin-bottom: 64px; }
+    .bg_2 .blog_paragraphs p {
+      width: 70%;
+      margin-bottom: 16px;
+      font-size: 36px;
+      margin-bottom: 32px; }
+      @media (max-width: 991px) {
+        .bg_2 .blog_paragraphs p {
+          font-size: 24px;
+          width: 100%; } }
+      @media (max-width: 767px) {
+        .bg_2 .blog_paragraphs p {
+          font-size: 16px;
+          width: 100%; } }
+  .bg_2 .ideas h3 {
+    font-size: 45px;
+    margin-bottom: 24px; }
+    @media (max-width: 991px) {
+      .bg_2 .ideas h3 {
+        font-size: 32px; } }
+    @media (max-width: 767px) {
+      .bg_2 .ideas h3 {
+        font-size: 20px; } }
+  .bg_2 .lets-chat {
+    direction: ltr;
+    text-align: left; }
 
 /*# sourceMappingURL=style.css.map */
